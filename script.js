@@ -14,3 +14,9 @@ let getJoke = () => {
 };
 
 btn.addEventListener("click", getJoke);
+
+const newFeature = function () {
+  console.log("Hello");
+};
+
+newFeature();
